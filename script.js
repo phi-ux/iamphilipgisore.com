@@ -5,7 +5,9 @@ document.getElementById('contact-form').addEventListener('submit', function(e) {
 
 window.addEventListener('scroll', function() {
     const backToTop = document.querySelector('.back-to-top');
-    if(this.window.pageYoffset > 300) {
+    if(window.pageYoffset > 300) {
+        backToTop.classList.add('visible');
+    } else {
         backToTop.classList.remove('visible');
     }
 });

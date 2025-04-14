@@ -46,10 +46,10 @@ nav {
     padding: 0.5rem 0;
     transition: color 0.3s ease;
 }
-nav-links a:hover {
+.nav-links a:hover {
     color: #4da6ff;
 }
-nav-links a::after {
+.nav-links a::after {
     content: '';
     position: absolute;
     bottom: 0;
@@ -59,7 +59,7 @@ nav-links a::after {
     background-color: #4da6ff;
     transition: width 0.3s ease;
 }
-nav-links a :hover::after {
+.nav-links a :hover::after {
     width: 100%;
 }
 .hero {
@@ -91,8 +91,8 @@ nav-links a :hover::after {
 }
 .hero h1 {
     font-size: 3.5rem;
-    margin-bottom:f2rem;
-    animation: fadeInUp 1s ease-out 0.3s forwars;
+    margin-bottom: 2rem;
+    animation: fadeInUp 1s ease-out 0.3s forwards;
     opacity: 0;
 }
 .hero .btn {
